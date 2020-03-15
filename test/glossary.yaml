@@ -1,0 +1,62 @@
+title: Test Glossary
+words:
+  a:
+    definition: definition
+    see_also: ["z"]
+  b00: {"definition":"definition"}
+  b01: {"definition":"definition"}
+  b02: {"definition":"definition"}
+  b03: {"definition":"definition"}
+  b04: {"definition":"definition"}
+  b05: {"definition":"definition"}
+  b06: {"definition":"definition"}
+  b07: {"definition":"definition"}
+  b08: {"definition":"definition"}
+  b09: {"definition":"definition"}
+  b10: {"definition":"definition"}
+  b11: {"definition":"definition"}
+  b12: {"definition":"definition"}
+  b13: {"definition":"definition"}
+  b14: {"definition":"definition"}
+  b15: {"definition":"definition"}
+  b16: {"definition":"definition"}
+  b17: {"definition":"definition"}
+  b18: {"definition":"definition"}
+  b19: {"definition":"definition"}
+  z:
+    definition: definition
+    see_also: ["a"]
+  áople: {"definition":"definition"}
+  áqple: {"definition":"definition"}
+  Aople: {"definition":"definition"}
+  Aqple: {"definition":"definition"}
+  apple:
+    synonyms: ["honeycrisp","x","y","z"]
+    definition: |
+      They're pretty cool!
+    see_also: ["banana"]
+    examples:
+      - title: "Some Video A"
+        url: http://example.com/
+      - title: "Some Video B"
+        url: http://example.com/
+    related:
+      - title: "Some Video 1"
+        url: http://example.com/
+      - title: "Some Video 2"
+        url: http://example.com/
+  banana:
+    synonyms: ["plantain"]
+    definition: |
+      They're also pretty cool!
+    see_also: ["apple"]
+    examples:
+      - title: "Some Video A"
+        url: http://example.com/
+      - title: "Some Video B"
+        url: http://example.com/
+    related:
+      - title: "Some Video 1"
+        url: http://example.com/
+      - title: "Some Video 2"
+        url: http://example.com/

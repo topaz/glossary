@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+a {
+}
+dfn {
+  font-style: normal;
+}
+
+.word {
+  margin-bottom: 1em;
+}
+.word.focus {
+  animation: 5s focus-fade;
+}
+@keyframes focus-fade { from { background: #ddd; } to { background: transparent; } }
+.word dd {
+  margin-top: .2em;
+}
+.word .word-terms dfn {
+  font-weight: bold;
+  color: #000;
+  position: relative;
+}
+.word .word-terms dfn.error {
+  color: #ffffff !important;
+  background: #cc0000 !important;
+  font-weight: bold !important;
+  padding: 0 .2em;
+}
+.word .word-terms dfn .anchor {
+  position: absolute;
+  top: -1.5em;
+}
+.word .word-terms dfn a {
+  color: inherit;
+  text-decoration: none;
+}
+.word .word-synonyms {
+  color: #999999;
+}
+.word .word-synonyms::before {
+  content: " (or: ";
+}
+.word .word-synonyms::after {
+  content: ")";
+}
+.word .word-examples::before {
+  content: "Examples: ";
+}
+.word .word-related::before {
+  content: "Related: ";
+}
+.word .word-seealso::before {
+  content: "See Also: ";
+}
