@@ -1,0 +1,285 @@
+title: Speedrunning Glossary
+words:
+  IGT:
+    definition: |
+      In-Game Time. This is time as measured by the [game] itself, which may or may not include things like cutscenes, screen transitions, or time spent loading.
+    see_also: ["RTA"]
+  RTA:
+    definition: |
+      Real-Time Attack. This is time as measured by a real clock external to the [game], which includes all cutscenes, loading time, etc.
+    see_also: ["IGT"]
+  TAS:
+    definition: |
+      Tool-Assisted Speedrun. A [run] executed by a computer replaying a carefully-constructed series of precise inputs, usually to demonstrate interesting [technique]s or optimal execution of a [route].
+    more_info:
+      - title: "Tool-assisted speedrunning explained"
+        url: https://www.youtube.com/watch?v=Ietk1-Wb7oY
+  intended:
+    synonyms: ["developer-intended"]
+    definition: |
+      Some behavior or outcome that the [developer] of the [game] added deliberately, chose not to fix, or otherwise allows to exist.
+    see_also: ["cheese"]
+  cheese:
+    definition: |
+      Something which benefits the player using the [intended] mechanics of the game, but which produces an overall outcome that is not [intended] by the [game] [developer].
+    see_also: ["glitch"]
+  developer:
+    synonyms: ["dev"]
+    definition: |
+      The person, group, or company that created a given [game].
+  death warp:
+    definition: |
+      To deliberately die and respawn elsewhere to quickly move to a new location.
+  category:
+    definition: |
+      A set of rules for a specific [game] that specify what actions are or are not allowed and what state counts as done.  For example, a category might prohibit certain [glitch]es that make the game less interesting to speedrun, or might designate "the credits start playing" as the victory condition.  Because common categories focus on how much of the game must be completed ([100%], [any%], [low%]), it is common to also write other category names with a trailing "%", regardless of whether they actually focus on completion amounts.
+    see_also: ["route", "run"]
+  route:
+    definition: |
+      A plan for how to complete a [game] within the rules of a [category]. Routes might vary in difficulty depending on which [technique]s and [strat]egies the router chooses to include; sufficiently difficult routes might be considered [TAS]-only.
+  run:
+    synonyms: ["speedrun"]
+    definition: |
+      An individual attempt at completing a [game] as quickly as possible within the rules of a [category] by executing a planned [route].
+  any%:
+    definition: |
+      A common [category] that typically means "any percent of the game can be completed before reaching the goal".
+    see_also: ["100%","low%"]
+  100%:
+    definition: |
+      A common [category] that typically means "100% of the game can be completed before reaching the goal". The details of what in-game actions count toward the 100% goal are defined in a per-[game] basis; some games include built-in progress indicators.
+    see_also: ["any%","low%"]
+  low%:
+    definition: |
+      A common [category] that typically means "as little as possible of the game must be completed before reaching the goal".
+    see_also: ["100%","any%"]
+  session:
+    definition: |
+      A single sitting during which a [speedrunner] attempts [speedrun]s. Depending on the [game], this might be dozens of attempts, or this might be a small part of a larger [segmented run].
+  stream:
+    definition: |
+      A live video feed of a [speedrunner] attempting [speedrun]s.
+    see_also: ["VOD"]
+  glitch:
+    definition: |
+      Something which breaks the [game] at a low level, usually due to a programming bug. Can allow anything from minor graphical effects to the ability to completely rewrite the game engine from within the game.
+    examples:
+      - title: "List of Super Mario World glitches"
+        url: https://www.mariowiki.com/List_of_Super_Mario_World_glitches
+  skip:
+    definition: |
+      Anything that lets the [speedrunner] avoid an otherwise-required section of a [game]. This can be as large as an entire chapter or zone or as small as a dialogue or animation.
+  out of bounds:
+    synonyms: ["OOB"]
+    definition: |
+      Any region that is not [intended] to be accessible in a game; this can be between walls, above ceilings, or simply outside the normal area of play.
+  sequence break:
+    definition: |
+      The act of completing steps of a game outside the [intended] order.  For example, if the game is set up so that accessing item B normally requires the use of item A, collecting item A first would be a sequence break.
+  casual playthrough:
+    definition: |
+      To play a game without trying to be fast, using [glitch]es or [trick]s, or following a [route] - that is, playing "normally".
+  cycle:
+    definition: |
+      Each repeat of some repeating pattern.  For example, if a boss has some repeating sequence of attacks, then defeating the boss before it finishes the second repeat would be called "a two-cycle".
+  frame:
+    definition: |
+      A single still image that makes up the video output of a [game]. Because most games run at a consistent [frame rate], a frame stays on screen for a specific amount of time, and so "frame" is often used to refer to that amount of time - typically 1/30th or 1/60th of a second.
+    see_also: ["frame rate"]
+    more_info:
+      - title: "Wikipedia \"Film frame\" article"
+        url: https://en.wikipedia.org/wiki/Film_frame
+  FPS:
+    synonyms: ["frame rate"]
+    definition: |
+      The number of [frame]s displayed every second, often 30 or 60.
+    more_info:
+      - title: "Wikipedia \"Frame rate\" article"
+        url: https://en.wikipedia.org/wiki/Frame_rate
+  frame-perfect:
+    definition: |
+      Anything that requires [frame]-level precision. For example, a "[frame]-perfect [trick]" is a difficult [trick] that requires executing an [input] on a specific [frame] (or, sometimes, a small set of frames).
+    examples:
+      - title: "Frame-perfect tricks in Prince of Persia"
+        url: https://youtu.be/USv8OQbg73M?t=209
+    see_also: ["pixel-perfect"]
+  pixel:
+    definition: |
+      One of the many single colored points that make up an image like a [sprite] or [frame]. Because pixels are equally spaced, they are often used as a unit of distance.
+    more_info:
+      - title: "Wikipedia \"Pixel\" article"
+        url: https://en.wikipedia.org/wiki/Pixel
+    see_also: ["subpixel", "pixel-perfect"]
+  pixel-perfect:
+    definition: |
+      Anything that requires [pixel]-level precision. For example, a "[pixel]-perfect [trick]" is a difficult [trick] that requires performing some action when aligned to a specific [pixel] (or, sometimes, a small set of pixels).
+    see_also: ["frame-perfect", "subpixel"]
+  subpixel:
+    definition: |
+      Distance or position measured in non-whole [pixel]s. Relying on subpixel positioning can be especially difficult because there is often no visual indication of position beyond whole [pixel]s. As a result, subpixel-perfect [trick]s are sometimes considered [luck-based].
+    examples:
+      - title: "Subpixel alignment in Mario Maker 2"
+        url: https://youtu.be/7HNkDECdsl0?t=1707
+  lag:
+    definition: |
+      In general, any reduction in game speed, often caused by overwhelming the game engine. Especially in [RTA]-timed games, lag reduction can be an important factor in getting a low time.
+    more_info:
+      - title: "Lag & Blanking - Super Nintendo Entertainment System Features Pt. 06"
+        url: https://www.youtube.com/watch?v=Q8ph2OVqZeM
+  world record:
+    synonyms: ["WR"]
+    definition: |
+      For a given [game] and [category], the [run] with the fastest time.
+  personal best:
+    synonyms: ["PB"]
+    definition: |
+      For a given [game], [category], and [speedrunner], their [run] with the fastest time.
+  TASer:
+    definition: |
+      Someone that creates [TAS]es.
+  VOD:
+    definition: |
+      Video On Demand. Any video content that isn't live, most often referring to a recording of part or all of a [stream].
+    see_also: ["stream"]
+  speedrunner:
+    synonyms: ["runner"]
+    definition: |
+      Someone that attempts [speedrun]s.
+  game:
+    definition: |
+      The interactive software within which [speedrun]ning occurs.
+    see_also: ["version"]
+    more_info:
+      - title: "Wikipedia \"Video game\" article"
+        url: "https://en.wikipedia.org/wiki/Video_game"
+  version:
+    synonyms: ["release"]
+    definition: |
+      A specific incarnation of a [game]. Versions often occur due to bug fixes or language/cultural differences.
+    more_info:
+      - title: "Why Speedrunners Play on Japanese Releases - Version Differences"
+        url: https://www.youtube.com/watch?v=1Mtukr5v6J8
+  RNG:
+    definition: |
+      Random Number Generator. An algorithm designed to be unpredictable. Because games rarely have a method of producing real randomness, an RNG will produce the same "random" numbers given the same conditions - that is, if the same [input]s are given at exactly the same times every time a game starts, the game will produce the same "random" output. [TAS]es are possible in part due to this predictable randomness.
+    see_also: ["luck-based"]
+    more_info:
+      - title: "Random number generation in Super Mario World"
+        url: https://www.youtube.com/watch?v=q15yNrJHOak
+  luck-based:
+    definition: |
+      Anything that is difficult for a [speedrunner] to control consistently, such as [RNG]s or [subpixel] positioning.
+    see_also: ["RNG", "subpixel"]
+    more_info:
+      - title: "Random number generation in Super Mario World"
+        url: https://www.youtube.com/watch?v=q15yNrJHOak
+  strategy:
+    synonyms: ["strat"]
+    definition: |
+      A method for achieving some small goal such as a [skip] or a [setup]. Often, a [route] is made of a series of such goals, and each goal has multiple strategies.
+    see_also: ["backup strategy"]
+  backup strategy:
+    synonyms: ["backup strat"]
+    definition: |
+      A [strategy] that can be used when a (typically faster-but-riskier) primary [strategy] fails.
+  technique:
+    synonyms: ["tech", "trick"]
+    definition: |
+      Some generally-applicable skill, often un[intended] by the [developer].  These can methods for faster movement, higher jumping, or a way to get around some common obstacle.
+  cutscene:
+    definition: |
+      A section of a [game] where the player has little or no control over the game - often only to advance dialog. In long games, an unskippable cutscene might be used as a bathroom break.
+    see_also: ["autoscroller"]
+  autoscroller:
+    definition: |
+      A section of a [game] where the player keeps control but cannot affect the speed of progression. This is often a section where the screen automatically scrolls (hence the name), but the term is used for any situation that takes the same amount of time regardless of the actions of the player.
+    see_also: ["cutscene"]
+  bonk:
+    definition: |
+      The act of colliding with an obstacle, most often a wall, in a way that causes the loss of most or all of one's speed.
+  marathon:
+    definition: |
+      An event where many different [speedrun]s are attempted in succession. Whereas normally a given speedrun is attempted repeatedly by the same [speedrunner], in a marathon, each [run] is typically attempted only once. Therefore, in an attempt to ensure the success of the run, runners will sometimes avoid very risky [strat]s and prepare a variety of [backup strat]s rather than choose a route with an unlikely but fast time.
+    see_also: ["marathon safety"]
+    more_info:
+      - title: "Wikipedia \"Speedrun\" article, \"Speedrun marathons\" section"
+        url: https://en.wikipedia.org/wiki/Speedrun#Speedrun_marathons
+    examples:
+      - title: "Games Done Quick"
+        url: https://gamesdonequick.com/
+  marathon safety:
+    definition: |
+      A deliberate choice by a [speedrunner] in a [marathon] to play in a way that is slower but less risky, such as making a [safety save].
+  safety save:
+    definition: |
+      When a [runner] travels slightly out of their way to activate a save point (that they would have otherwise skipped) to be able to more quickly recover from an upcoming mistake, often as a form of [marathon safety].
+  input:
+    definition: |
+      The event of pressing a button, typing a key, moving a mouse, tilting a joystick, etc.
+  input buffer:
+    definition: |
+      Executing an [input] in such a way that the game interprets it at a later desired time, often on the earliest possible valid [frame].
+    see_also: ["pause buffer"]
+  pause buffer:
+    definition: |
+      An [input buffer] that uses the act of pausing and unpausing the game to carefully control the timing of [input]s and even execute input sequences that might normally be impossible, like pressing a button twice in two [frame]s.
+    see_also: ["input buffer"]
+    more_info:
+      - title: "Pause buffering in Super Mario 64"
+        url: https://ukikipedia.net/wiki/Pause_Buffering
+  hitbox:
+    definition: |
+      An invisible region, often a rectangular box, used to calculate collisions between entities in a [game]. These are often less detailed than the visual representation of their entity as a software optimization. As a result, hitboxes are sometimes larger or smaller than the entity appears, allowing for [trick]s that appear strange or impossible.
+    see_also: ["sprite"]
+    more_info:
+      - title: "Wikipedia \"Collision detection\" article"
+        url: https://en.wikipedia.org/wiki/Collision_detection
+    examples:
+      - title: "Demodash description from the Celeste Fandom wiki"
+        url: https://celestegame.fandom.com/wiki/Moves#Demodash
+  damage boost:
+    definition: |
+      To deliberately take damage in a way that boosts the character in a direction, often due to an [intended] knockback mechanic. Sometimes also used to describe the act of deliberately taking damage simply because it is faster to do so than to avoid it.
+    more_info:
+      - title: "Damage boosting in Super Metroid"
+        url: https://wiki.supermetroid.run/Damage_boosting
+  segment:
+    definition: |
+      A contiguous recording of [speedrun] gameplay. A [run] consisting of only one segment is a [single-segment run]; a run consisting of multiple segments is a [segmented run].
+  single-segment run:
+    definition: |
+      A [run] that consists of a single [segment].
+  segmented run:
+    definition: |
+      A [run] that consists of more than one [segment].
+  blind playthrough:
+    definition: |
+      The act of playing part or all of a [game] for the first time, typically with little or no outside knowledge.
+    see_also: ["blindfolded run"]
+  blindfolded run:
+    definition: |
+      A [run] executed while wearing a blindfold. [Runner]s instead rely on special [setup]s, audio cues, and careful timing to complete their goal.
+    see_also: ["blind playthrough"]
+  sprite:
+    definition: |
+      A 2d image used to visually represent some in-[game] entity. Sometimes, used to refer to the in-game entity itself.
+    see_also: ["pixel", "hitbox"]
+    more_info:
+      - title: "Wikipedia \"Sprite (computer graphics)\" article"
+        url: https://en.wikipedia.org/wiki/Sprite_(computer_graphics)
+  softlock:
+    definition: |
+      A [game] state in which the player keeps control but cannot progress further, such as being trapped in a room without having the item required to exit the room.
+  hardlock:
+    synonyms: ["freeze"]
+    definition: |
+      A [game] state in which the game stops rendering new [frame]s (or repeatedly renders the same frame), ignoring all inputs from the player. Usually a [glitch] or other programming bug.
+    more_info:
+      - title: "Wikipedia \"Infinite loop\" article"
+        url: https://en.wikipedia.org/wiki/Infinite_loop
+  setup:
+    definition: |
+      A series of steps that allow the [runner] to consistently perform some [trick], such as aligning the character with a wall or timing movement with some in-[game] event.
+    examples:
+      - title: "Quick Tutorial on Diver Down (Holy Diver) and Ice Breaker glitches in ALTTP!"
+        url: https://youtu.be/6xqvSGD3GXs?t=223

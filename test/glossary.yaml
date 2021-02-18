@@ -40,7 +40,7 @@ words:
         url: http://example.com/
       - title: "Some Video B"
         url: http://example.com/
-    related:
+    more_info:
       - title: "Some Video 1"
         url: http://example.com/
       - title: "Some Video 2"
@@ -55,7 +55,7 @@ words:
         url: http://example.com/
       - title: "Some Video B"
         url: http://example.com/
-    related:
+    more_info:
       - title: "Some Video 1"
         url: http://example.com/
       - title: "Some Video 2"

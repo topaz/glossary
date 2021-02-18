@@ -1,7 +1,16 @@
 body {
   font-family: sans-serif;
 }
-a {
+a:not([href^="#"])::after {
+  content: "\238b";
+  transform: rotate(90deg);
+  display: inline-block;
+  font-size: small;
+}
+a.unknown-href {
+  color: #ffffff !important;
+  background: #cc0000 !important;
+  font-weight: bold !important;
 }
 dfn {
   font-style: normal;
@@ -47,10 +56,13 @@ dfn {
 }
 .word .word-examples::before {
   content: "Examples: ";
+  color: #999999;
 }
-.word .word-related::before {
-  content: "Related: ";
+.word .word-moreinfo::before {
+  content: "More Info: ";
+  color: #999999;
 }
 .word .word-seealso::before {
   content: "See Also: ";
+  color: #999999;
 }
