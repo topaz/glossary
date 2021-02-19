@@ -10,7 +10,7 @@ words:
       Some definition of an apple. You can also refer to other words like [banana].
     see_also: ["banana"]
   banana:
-    synonyms: ["plantain"]
+    synonyms: ["plantain"] # it's just an example :P
     definition: |
       Another definition, this time not of an [apple], but of a banana.
     examples:
