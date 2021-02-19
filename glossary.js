@@ -106,7 +106,13 @@ function ready() {
     return;
   }
 
+  var glossary_name = /([^\/]+)\/[^\/]*$/.exec(location.pathname)[1];
+
   document.head.appendChild(ce("title",{},data.title||"Glossary"));
+  document.body.appendChild(ce("header",{},ce("nav",{},[
+    ce("a", {href:"https://github.com/topaz/glossary"}, "GitHub Repository"),
+    ce("a", {href:"https://github.com/topaz/glossary/blob/master/"+glossary_name+"/glossary.yaml"}, "Glossary Source"),
+  ])));
   document.body.appendChild(glossary_render(data))
 
   // collect all linkable dfns

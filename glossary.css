@@ -16,6 +16,16 @@ dfn {
   font-style: normal;
 }
 
+header {
+  float: right;
+}
+header nav a {
+  display: inline-block;
+  margin-right: 1em;
+  padding: .5em;
+  background: rgba(0,0,0,.1);
+}
+
 .word {
   margin-bottom: 1em;
 }
